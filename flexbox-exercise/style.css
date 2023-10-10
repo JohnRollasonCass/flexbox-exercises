@@ -13,14 +13,12 @@
 }
 
 .menu {
-  border: 1px solid #fff;
   width: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .links {
-  border: 1px solid #fff;
   display:flex;
   justify-content:flex-end;
 }
@@ -41,4 +39,5 @@
   height: 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
