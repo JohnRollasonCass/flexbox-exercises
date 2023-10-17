@@ -4,5 +4,9 @@
 
 .header{
     background-color: #F2937;
-    
+    display: flex
+}
+
+.header-top{
+
 }
