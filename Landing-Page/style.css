@@ -14,6 +14,7 @@
   flex-direction: row;
   font-size: 24px;
   color: #f9faf8;
+  justify-content: space-around;
 
 }
 
@@ -21,13 +22,13 @@
   font-size: 24px;
   color: #f9faf8;
   align-items: flex-start;
+  margin-left:auto
   
 }
 .header-link-1,
 .header-link-2,
 .header-link-3, {
-  font-size: 18px;
-  color: #e5e73b
+  
 
 }
 
@@ -35,5 +36,14 @@
     display:flex;
     font: 48px bold;
     color: #f9faf8
+}
 
+.header-content-subtext {
+  font-size: 18px;
+  color: #e5e5e5;
+
+}
+
+.img {
+  align-self: auto;
 }
