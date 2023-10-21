@@ -1,35 +1,34 @@
 
-* {
+div {
   font-family: Arial, Helvetica, sans-serif
 }
 
-.header {
+.header div {
   background-color: #1f2937;
   display: flex;
-  flex-direction: column;
 }
 
-.header-top {
-  display:flex;
+.header-top div {
+  flex: auto;
   flex-direction: row;
   font-size: 24px;
   color: #f9faf8;
-  justify-content: space-around;
-
 }
 
 .header-logo-text {
   font-size: 24px;
   color: #f9faf8;
-  align-items: flex-start;
+  flex: 1;
+  margin:auto;
   margin-left:auto
   
 }
 .header-link-1,
 .header-link-2,
-.header-link-3, {
-  
-
+.header-link-3, div
+{
+  flex:auto;
+  flex-direction: row;
 }
 
 .header-content{
@@ -45,5 +44,6 @@
 }
 
 .img {
-  align-self: auto;
+  size: auto;
+
 }
